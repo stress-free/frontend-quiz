@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CarDash | Easy and Honest Concierge Auto Repair</title>
+    <meta name="description" content="Don't put off your car maintenance. We'll find you the best deal, pick up your car, get it serviced, and bring it back the same day. We cover maintenance, repairs, recalls, and car washes." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8">
+    <meta property="og:url" content="https://www.cardash.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="CarDash | Easy and Honest Concierge Auto Repair" />
+    <meta property="og:description" content="Don't put off your car maintenance. We'll find you the best deal, pick up your car, get it serviced, and bring it back the same day. We cover maintenance, repairs, recalls, and car washes... so you can have peace of mind." />
+    <meta property="og:image" content="https://s3-us-west-2.amazonaws.com/cardash-static-assets/og_image_mechanic%3F1493789337923.png" />
+    <link rel="icon"
+      type="image/png"
+      href="https://s3-us-west-2.amazonaws.com/cardash-static-assets/favicon-196.png">
+    <!-- Cursive font for license plate -->
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <style>
+      /* http://meyerweb.com/eric/tools/css/reset/
+        v2.0 | 20110126
+        License: none (public domain) */
+
+      html, body, div, span, applet, object, iframe,
+      h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+      a, abbr, acronym, address, big, cite, code,
+      del, dfn, em, img, ins, kbd, q, s, samp,
+      small, strike, strong, sub, sup, tt, var,
+      b, u, i, center,
+      dl, dt, dd, ol, ul, li,
+      fieldset, form, label, legend,
+      table, caption, tbody, tfoot, thead, tr, th, td,
+      article, aside, canvas, details, embed,
+      figure, figcaption, footer, header, hgroup,
+      menu, nav, output, ruby, section, summary,
+      time, mark, audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+        box-sizing: border-box;
+      }
+      /* HTML5 display-role reset for older browsers */
+      article, aside, details, figcaption, figure,
+      footer, header, hgroup, menu, nav, section {
+        display: block;
+      }
+      body {
+        font-family: 'Lato', sans-serif;
+        line-height: 1;
+      }
+      ol, ul {
+        list-style: none;
+      }
+      blockquote, q {
+        quotes: none;
+      }
+      blockquote:before, blockquote:after,
+        q:before, q:after {
+        content: '';
+        content: none;
+      }
+      table {
+        border-collapse: collapse;
+        border-spacing: 0;
+      }
+      a {
+        text-decoration: none;
+	color: #0091EA;
+      }
+      button {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-family: 'Lato', sans-serif;
+        line-height: 1;
+      }
+      input {
+        outline: none;
+        background-color: transparent;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+      textarea {
+        outline: none;
+        background-color: transparent;
+      }
+      input::-webkit-input-placeholder {
+        color: rgba(213, 217, 222, 1);
+      }
+      input:-moz-placeholder {
+        color: rgba(213, 217, 222, 1);
+      }
+      input::-moz-placeholder {
+        color: rgba(213, 217, 222, 1);
+      }
+      input:-ms-input-placeholder {
+        color: rgba(213, 217, 222, 1);
+      }
+      textarea::-webkit-input-placeholder {
+        color: rgba(213, 217, 222, 1);
+      }
+      textarea:-moz-placeholder {
+        color: rgba(213, 217, 222, 1);
+      }
+      textarea::-moz-placeholder {
+        color: rgba(213, 217, 222, 1);
+      }
+      textarea:-ms-input-placeholder {
+        color: rgba(213, 217, 222, 1);
+      }
+   </style>
+    <!-- Structured Data https://developers.google.com/search/docs/guides/intro-structured-data?visit_id=1-636248106468402268-3618613512&hl=en&rd=1 -->
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "address": "250 Middlefield Road, Menlo Park, CA",
+      "duns": "039567158",
+      "numberOfEmployees": [{
+        "@type": "QuantitativeValue",
+        "value": 15
+      }],
+      "founders": [
+        {
+          "@type": "Person",
+          "givenName": "Yinon",
+          "familyName": "Weiss"
+        },
+        {
+          "@type": "Person",
+          "givenName": "Sam",
+          "familyName": "Corcos"
+        },
+        {
+          "@type": "Person",
+          "givenName": "Todd",
+          "familyName": "Opalski"
+        }
+      ],
+      "logo": [{
+        "@type": "ImageObject",
+        "contentUrl" : "https://s3-us-west-2.amazonaws.com/cardash-static-assets/cardash_logo_80x321%3F1488253839719.png"
+      }],
+      "url": "https://www.cardash.com",
+      "contactPoint": [{
+        "@type": "ContactPoint",
+        "telephone": "+1-650-489-2337",
+        "contactType": "customer service"
+      }]
+    }
+    </script>
+    <!-- Segment -->
+    <script>
+      !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="4.0.0";
+      analytics.load("R8cNuDPyzAigdyVRlJIEKSZuZ4ENDoJM");
+      analytics.page();
+      }}();
+    </script>
+  </head>
+  <body>
+    <!-- Webpack bundle anchor -->
+    <div id="root"></div>
+  </body>
+</html>

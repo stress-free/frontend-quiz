@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+  xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url>
+    <loc>https://www.cardash.com</loc>
+    <changefreq>weekly</changefreq>
+    <image:image>
+      <image:loc>https://s3-us-west-2.amazonaws.com/cardash-static-assets/cardash_logo_80x321%3F1488253839719.png</image:loc>
+      <image:caption>CarDash logo</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.cardash.com/about</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+</urlset>
