@@ -1,6 +1,6 @@
 # CarDash Frontend Quiz
 
-This is a basic quiz to ensure you have a basic understanding of the technology stack we're using. Because this is an unfamiliar codebase, it will probably take a couple hours to navigate around, but the tasks themselves are fairly simple.
+This is a  basic quiz to to assess your familiarity with the technology stack we're using. If you are familiar with the tech stack, this should only take 10-15 minutes of your time. If not familiar, it could take longer.
 
 To get the app running, `npm i` and run `npm run dev`.
 
